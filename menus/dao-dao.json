@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle dao-dao",
+        "command": "dao-dao:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "dao-dao",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "dao-dao:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
